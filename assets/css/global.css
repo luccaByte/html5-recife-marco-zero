@@ -21,25 +21,35 @@
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
 }
 
-.rodape #c {
-    text-align: center;
-    font-size: 15px;
+.conteudo img {
+    width: 1200px;
+    height: 700px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
 }
 
+.artigo a {
+    text-decoration: none;
+    color: rgb(153, 153, 153);
+}
+
+#c {
+    text-align: center;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+
 .redes {
+    text-align: center;
 }
 
 .redes li {
     list-style-type: none;
     display: inline-block;
-    margin: 0 0 0 15px;
-    justify-content: center;
-    align-items: center;
+    margin-right: 20px;
 }
 
 .redes li img {
-    max-width:50px;
-    max-height:50px;
-    width: auto;
-    height: auto;
+    max-width: 50px;
+    max-height: 50px;
 }
